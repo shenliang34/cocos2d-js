@@ -49,11 +49,11 @@
 
 cc.game.onStart = function(){
     cc.view.adjustViewPort(true);
-    cc.view.setDesignResolutionSize(800, 450, cc.ResolutionPolicy.SHOW_ALL);
-    cc.view.resizeWithBrowserSize(true);
+    cc.view.setDesignResolutionSize(800, 450, cc.ResolutionPolicy.SHOW_ALL);//设置场景的分辨率
+    cc.view.resizeWithBrowserSize(true); //是否在浏览器中运行 底层直接判断
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new HelloWorldScene());
+        cc.director.runScene(new ActionScene());
     }, this);
 };
 cc.game.run();

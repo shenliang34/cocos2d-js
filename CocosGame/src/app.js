@@ -4,7 +4,7 @@ var HelloWorldLayer = cc.Layer.extend({
     ctor:function () {
         //////////////////////////////
         // 1. super init first
-        this._super();
+    	this._super();//必须
 
         /////////////////////////////
         // 2. add a menu item with "X" image, which is clicked to quit the program
@@ -70,7 +70,7 @@ var HelloWorldLayer = cc.Layer.extend({
 
 var HelloWorldScene = cc.Scene.extend({
     onEnter:function () {
-        this._super();
+    	this._super();//必须
         var layer = new HelloWorldLayer();
         this.addChild(layer);
     }
