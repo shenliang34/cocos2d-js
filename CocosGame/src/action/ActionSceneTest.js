@@ -30,6 +30,7 @@ var ActionScene = cc.Scene.extend({
 		var rep = cc.sequence(bezierForward, delay, bezierForward.reverse(), delay.clone()).repeatForever();
 		var controlPoints2 = [ cc.p(200, 200),cc.p(400, 200),cc.p(400, 400),cc.p(200,400),cc.p(200,200)];
 		var bezierTo1 = cc.bezierTo(2, controlPoints2);
+		
 //
 //		// // sprite 3
 //		var controlPoints3 = controlPoints2.slice();

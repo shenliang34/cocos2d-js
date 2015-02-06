@@ -53,7 +53,8 @@ cc.game.onStart = function(){
     cc.view.resizeWithBrowserSize(true); //是否在浏览器中运行 底层直接判断
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new ActionScene());
+        cc.director.runScene(new ClickAndMoveTestScene());
+//        cc.director.runScene(new ActionScene());
     }, this);
 };
 cc.game.run();

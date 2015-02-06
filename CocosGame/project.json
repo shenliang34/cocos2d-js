@@ -13,6 +13,7 @@
     "jsList" : [
         "src/resource.js",
         "src/app.js",
-        "src/action/ActionSceneTest.js"
+        "src/action/ActionSceneTest.js",
+        "src/clickAndMoveTest/clickTest.js"
     ]
 }
