@@ -14,6 +14,8 @@
         "src/resource.js",
         "src/app.js",
         "src/action/ActionSceneTest.js",
-        "src/clickAndMoveTest/clickTest.js"
+        "src/clickAndMoveTest/clickTest.js",
+        "src/firstGame/StartScene.js",
+        "src/firstGame/GameScene.js"
     ]
 }
