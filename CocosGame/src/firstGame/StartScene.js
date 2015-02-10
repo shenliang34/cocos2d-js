@@ -21,7 +21,10 @@ var StartLayer = cc.Layer.extend({
 		//添加开始按钮
 		var startBtn =new cc.MenuItemImage(res.STRAT_N_PNG,res.STRAT_S_PNG,function(){
 			cc.log("startBtn click")
-			cc.director.runScene(new GameScene());
+//			var tr = new cc.TransitionScene(1,new GameScene())
+			cc.director.pushScene(new GameScene())
+//			cc.director.runScene(tr);
+//			cc.director.
 		})
 		var menu = new cc.Menu(startBtn);
 		this.addChild(menu)
