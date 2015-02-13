@@ -16,6 +16,8 @@
         "src/action/ActionSceneTest.js",
         "src/clickAndMoveTest/clickTest.js",
         "src/firstGame/StartScene.js",
-        "src/firstGame/GameScene.js"
+        "src/firstGame/GameScene.js",
+        "src/firstGame/SushiSprite.js",
+        "src/TouchOneByOne/TouchOneByOne.js"
     ]
 }

@@ -55,7 +55,8 @@ cc.game.onStart = function(){
     cc.LoaderScene.preload(g_resources, function () {
 //        cc.director.runScene(new ClickAndMoveTestScene());
 //    	cc.director.runScene(new StartScene())
-    	cc.director.pushScene(new StartScene())
+    	cc.director.pushScene(new TouchOneByOneScene())
+//    	cc.director.pushScene(new StartScene())
 //        cc.director.runScene(new ActionScene());
     }, this);
 };

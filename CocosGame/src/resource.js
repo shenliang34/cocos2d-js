@@ -7,7 +7,13 @@ var res = {
     STRAT_N_PNG:"res/start_N.png",
     STRAT_S_PNG:"res/start_S.png",
     SUSHI_PNG:"res/sushi.png",
-    SUSHI_1n_0_PNG:"res/sushi_1n/sushi_1n_0.png"
+    SUSHI_1n_0_PNG:"res/sushi_1n/sushi_1n_0.png",
+    SUSHI_PILST:"res/sushi.plist",
+    SUSHI_PNG:"res/sushi.png",
+    
+    CYANSQUARE_PNG:"res/CyanSquare.png",
+    YELLOWSQUARE_PNG:"res/YellowSquare.png",
+    MAGENTASQUARE_PNG:"res/MagentaSquare.png"
 };
 
 var g_resources = [];
